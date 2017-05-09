@@ -1,0 +1,72 @@
+---
+layout: landing-page
+---    
+
+    
+<!----------------------------Start of Projects---------------------------->
+    <div class="content-pages" id="blog">
+        <h2>PROJECTS</h2>  
+    </div>
+
+
+<section id="main" class="wrapper style1">
+    {% for post in site.categories.project %}
+        <div class="wrapper {% cycle 'style1', 'style2' %}">
+            <header class="major">
+                <h2>{{ post.title }}</h2>
+            </header>
+            <section class="container">
+                {{ post.excerpt }}
+            </section>
+            <section class="special">
+                <ul class="actions">
+                    <li><a href="{{ site.baseurl }}{{ post.url }}" class="button {% cycle '', 'alt'%}">Read More</a></li>
+                </ul>
+            </section>
+        </div>
+    {% endfor %}
+</section>
+
+<!----------------------------End of Projects---------------------------->
+    
+    
+
+<!----------------------------Start of Blog---------------------------->
+    <div class="content-pages" id="blog">
+        <h2>FROM OUR BLOG</h2>
+    </div>
+                
+        <section id="main" class="wrapper style1">
+    {% for post in site.categories.blog %}
+        <div class="wrapper {% cycle 'style1', 'style2' %}">
+            <header class="major">
+                <h2>{{ post.title }}</h2>
+            </header>
+            <section class="container">
+                {{ post.excerpt }}
+            </section>
+            <section class="special">
+                <ul class="actions">
+                    <li><a href="{{ site.baseurl }}{{ post.url }}" class="button {% cycle '', 'alt'%}">Read More</a></li>
+                </ul>
+            </section>
+        </div>
+    {% endfor %}
+</section>
+        
+        
+   
+<!----------------------------End of Blog---------------------------->
+    
+    
+
+<!----------------------------Start of Team---------------------------->
+    <div class="content-pages" id="team">
+        <h1>MEET THE TEAM</h1>
+        <p class="subtitle">Fynd builds technologies that bring people together in the real world - which is often inspiring, sometimes daunting, but ideally a life-changing experience. With 30 million guests all time (and just 20 million in 2014 alone), we're constantly tackling challenges in search algorithms, payments, fraud prevention, infrastructure and growth</p>
+        <a href="team.html" id="teams-view">View full Team</a>
+        
+    </div>
+<!----------------------------End of Team---------------------------->
+
+ 

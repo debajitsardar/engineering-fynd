@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html>
+
+  {% include /head.html %}
+
+	<body id="top">
+
+        {% include /header.html %}
+
+    
+<!----------------------------Start of Banner---------------------------->
+   <section id="banner">
+        <div class="inner">
+            <img src="{{ post.img }}">
+            <h1>{{ post.title }}</h1>
+            <p class="subtitle">{{ post.description }}</p>
+        </div>
+    </section>
+<!----------------------------End of Banner---------------------------->
+    
+       <section class="post-content">
+            {{ content }}
+        </section>
+        
+        {% include /footer.html %}
+
+    </body>
+
+</html>
+
+
+
+
+<!---
+
+<section id="main" class="project">
+
+    
+
+        <section id="banner">
+        <div class="inner">
+            <img src="{{ post.img }}">
+            <h1>{{ post.title }}</h1>
+            <p class="subtitle">{{ post.description }}</p>
+        </div>
+    </section>
+
+    
+        <div class="wrapper {% cycle 'style1', 'style2' %}">
+
+            <section class="container">
+                  {{ content }}
+            </section>
+        </div>
+
+</section>
+
+
+
+
+
+
+ 
+
+
+
+
+
+<div class="wrapper style1">
+    <article class="container">
+        <header class="major">
+            <h2 class="post-title">{{ page.title }}</h2>
+                <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+        </header>
+
+        <section class="post-content">
+            {{ content }}
+        </section>
+        
+    </article>
+
+</div>
+
+-->
+
+
+
+
+
