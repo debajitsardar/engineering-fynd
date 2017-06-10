@@ -10,19 +10,27 @@
 
     
 <!----------------------------Start of Banner---------------------------->
+        
    <section id="banner">
-        <div class="inner">
-            <img src="{{ post.img }}">
-            <h1>{{ post.title }}</h1>
-            <p class="subtitle">{{ post.description }}</p>
+        <div class="p_banner">
+            <img class="fit image" src="/images/{{page.img}}">
+            <h1 class="p_title">{{ page.title }}</h1>
+            <h2 class="subtitle">{{ page.description }}</h2>
         </div>
     </section>
 <!----------------------------End of Banner---------------------------->
-    
-       <section class="post-content">
-            {{ content }}
-        </section>
         
+
+  
+    
+       <div class="post-content">
+           <div class="post-body">
+                {{ content }}
+           </div>
+            
+        </div>
+        
+           
         {% include /footer.html %}
 
     </body>

@@ -7,26 +7,30 @@ layout: default
 <!-- Banner -->
 <section id="banner">
     <div class="inner">
-        <h2>OUR BLOG</h2>
+        <h1>OUR BLOG</h1>
+        <h2>Next Genration of Retail Technologies</h2>
     </div>
 </section>
-<section id="main" class="wrapper style1">
-    {% for post in site.categories.blog%}
-        <div class="wrapper {% cycle 'style1', 'style2' %}">
-            <header class="major">
-                <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-            </header>
-            <section class="container">
-                {{ post.excerpt }}
+
+<div class="top">
+                <span class="top-text">
+                    <span>HOME > BLOG</span>
+                </span>
+    </div>
+<div class="blogcard">
+    {% for post in site.categories.blog %}
+        <div class="b_wrapper">
+            
+            <section class="b_container">
+                <h3>{{ post.title }}</h3>
+                <h4 id="author">By {{post.author}}</h4>
             </section>
-            <section class="special">
-                <ul class="actions">
-                    <li><a href="{{ site.baseurl }}{{ post.url }}" class="button {% cycle '', 'alt'%}">Read More</a></li>
-                </ul>
+            <section class="b_special">
+                <a href="{{ site.baseurl }}{{ post.url }}" class="view">READ BLOG</a>
             </section>
         </div>
     {% endfor %}
-</section>
+    </div>
 
 
 <!----------------------------Start of Blog----------------

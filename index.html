@@ -1,59 +1,78 @@
 ---
 layout: landing-page
 ---    
-
+<section id="banner">
+    <div class="inner">
+        <h1>OPEN SOURCING</h1>
+        <h2>Next Genration of Retail Technologies</h2>
+    </div>
+</section>
+  
     
-<!----------------------------Start of Projects---------------------------->
-    <div class="content-pages" id="blog">
-        <h2>PROJECTS</h2>  
+<!----------------------------Start of Projects {{ post.excerpt }}---------------------------->
+<div>
+<div class="content-title">
+        <span>PROJECTS</span>  
     </div>
 
 
-<section id="main" class="wrapper style1">
+<div class="projectcard">
     {% for post in site.categories.project %}
-        <div class="wrapper {% cycle 'style1', 'style2' %}">
-            <header class="major">
-                <h2>{{ post.title }}</h2>
-            </header>
-            <section class="container">
-                {{ post.excerpt }}
+        <div class="p_wrapper">
+            <div class="major">
+                <img class="fit image" src="/images/{{post.img}}">
+                
+            </div>
+            <section class="p_container">
+                <h3>{{ post.title }}</h3>
+                <h4>{{post.description}}</h4>
             </section>
-            <section class="special">
-                <ul class="actions">
-                    <li><a href="{{ site.baseurl }}{{ post.url }}" class="button {% cycle '', 'alt'%}">Read More</a></li>
-                </ul>
+            <section class="p_special">
+                <a href="{{ site.baseurl }}{{ post.url }}" class="view">VIEW PROJECT</a>
             </section>
         </div>
     {% endfor %}
-</section>
+</div>
+  
+<span class="view_all">
+    <button class="view_rest"><a href="{{ site.baseurl }}{{ post.url }}" class="view_all_link">VIEW ALL PROJECTS</a></button>
 
-<!----------------------------End of Projects---------------------------->
-    
-    
+</span>    
 
-<!----------------------------Start of Blog---------------------------->
-    <div class="content-pages" id="blog">
-        <h2>FROM OUR BLOG</h2>
+</div>  
+
+
+ 
+
+<div>
+
+    <div class="content-title">
+        <span>FROM OUR BLOG</span>  
     </div>
                 
-        <section id="main" class="wrapper style1">
+    <div class="blogcard">
     {% for post in site.categories.blog %}
-        <div class="wrapper {% cycle 'style1', 'style2' %}">
-            <header class="major">
-                <h2>{{ post.title }}</h2>
-            </header>
-            <section class="container">
-                {{ post.excerpt }}
+        <div class="b_wrapper">
+            
+            <section class="b_container">
+                <h3>{{ post.title }}</h3>
+                <h4 id="author">By {{post.author}}</h4>
             </section>
-            <section class="special">
-                <ul class="actions">
-                    <li><a href="{{ site.baseurl }}{{ post.url }}" class="button {% cycle '', 'alt'%}">Read More</a></li>
-                </ul>
+            <section class="b_special">
+                <a href="{{ site.baseurl }}{{ post.url }}" class="view">READ BLOG</a>
             </section>
         </div>
     {% endfor %}
-</section>
-        
+    </div>
+
+
+<span class="view_all">
+    <button class="view_rest"><a href="{{ site.baseurl }}{{ post.url }}" class="view_all_link">VIEW ALL BLOG POSTS</a></button>
+
+</span>    
+    
+</div>
+       
         
    
 <!----------------------------End of Blog---------------------------->
@@ -61,12 +80,23 @@ layout: landing-page
     
 
 <!----------------------------Start of Team---------------------------->
-    <div class="content-pages" id="team">
+    <div class="team">
+        <div class="team_container">
         <h1>MEET THE TEAM</h1>
-        <p class="subtitle">Fynd builds technologies that bring people together in the real world - which is often inspiring, sometimes daunting, but ideally a life-changing experience. With 30 million guests all time (and just 20 million in 2014 alone), we're constantly tackling challenges in search algorithms, payments, fraud prevention, infrastructure and growth</p>
-        <a href="team.html" id="teams-view">View full Team</a>
+        <p id="about">Fynd builds technologies that bring people together in the real world - which is often inspiring, sometimes daunting, but ideally a life-changing experience. With 30 million guests all time (and just 20 million in 2014 alone), we're constantly tackling challenges in search algorithms, payments, fraud prevention, infrastructure and growth</p>
+        
+    <div>
+       <button class="view_team"><a href="team.html" class="view_all_link">VIEW FULL TEAM</a></button>     
+    </div>
+    
+        
+
+        </div>
+        
         
     </div>
 <!----------------------------End of Team---------------------------->
 
  
+<!------- {% cycle 'style1', 'style2' %}
+---->

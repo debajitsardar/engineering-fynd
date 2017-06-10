@@ -2,30 +2,33 @@
 layout: default
 ---    
 
-   
+
 
     
- 
-<section id="main" class="project">
-    {% for post in site.posts %}
-    <!----------------------------Start of Banner---------------------------->
+<!---- 
+<div>
+    {% for post in site.categories.project %}
 
-        <section id="banner">
-        <div class="inner">
-            <img src="#">
-            <h1>{{ post.title }}</h1>
-            <p class="subtitle">{{ post.description }}</p>
+
+        <div>
+        <div>
+            <div>
+                {{ post.excerpt }}
+            </div>
+            <div>
+                <h1>{{ post.title }}</h1>
+                <p class="subtitle">{{ post.description }}</p>
+            </div>
         </div>
-    </section>
-<!----------------------------End of Banner---------------------------->
+            
+    </div>
+
     
         <div class="wrapper {% cycle 'style1', 'style2' %}">
             <header class="major">
                 <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
             </header>
-            <section class="container">
-                {{ post.excerpt }}
-            </section>
+            
             <section class="special">
                 <ul class="actions">
                     <li><a href="{{ site.baseurl }}{{ post.url }}" class="button {% cycle '', 'alt'%}">Read More</a></li>
@@ -33,24 +36,8 @@ layout: default
             </section>
         </div>
     {% endfor %}
-</section>
+</div>
 
-    
-<!----------------------------Start of Projects------------
-    <div class="content-pages" id="projects">
-        <h2>Project Name</h2>
-        
-        <div class="project">
-            <a href="#" id="project1-icon"><img src="#"></a>
-            <h3>Project 1</h3>
-            <p>A short description of the project taken from the github page</p>
-            <h6>Last updated 8 min ago</h6>
-            <a href="#" id="project1-view">View Project</a>
-        </div>
- 
-        
-        
-        <a href="#" id="projects-view">View All Project</a>
-    </div>
-<!----------------------------End of Projects---------------------------->
- 
+-->
+
+     

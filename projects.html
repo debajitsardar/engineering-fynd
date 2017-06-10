@@ -6,86 +6,36 @@ layout: default
 <!-- Banner -->
 <section id="banner">
     <div class="inner">
-        <h2>PROJECTS</h2>
+        <h1>OPEN SOURCE PROJECTS</h1>
+        <h2>Next Genration of Retail Technologies</h2>
     </div>
 </section>
-<section id="main" class="wrapper style1">
+<div class="top">
+                <span class="top-text">
+                    <span>HOME > PROJECTS</span>
+                </span>
+    </div>
+
+<div class="projectcard">
     {% for post in site.categories.project %}
-        <div class="wrapper {% cycle 'style1', 'style2' %}">
-            <header class="major">
-                <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-            </header>
-            <section class="container">
-                {{ post.excerpt }}
+        <div class="p_wrapper">
+            <div class="major">
+                <img class="fit image" src="/images/{{post.img}}">
+                
+            </div>
+            <section class="p_container">
+                <h3>{{ post.title }}</h3>
+                <h4>{{post.description}}</h4>
             </section>
-            <section class="special">
-                <ul class="actions">
-                    <li><a href="{{ site.baseurl }}{{ post.url }}" class="button {% cycle '', 'alt'%}">Read More</a></li>
-                </ul>
+            <section class="p_special">
+                <a href="{{ site.baseurl }}{{ post.url }}" class="view">VIEW PROJECT</a>
             </section>
         </div>
     {% endfor %}
-</section>
+</div>
 
 
 
-
-
-<!----------------------------Start of Projects------------
-    <div class="content-pages" id="projects">
-        <h6>Home > Projects</h6>
-        
-        <div class="project">
-            <a href="#" id="project1-icon"><img src="#"></a>
-            <h3>Project 1</h3>
-            <p>A short description of the project taken from the github page</p>
-            <h6>Last updated 8 min ago</h6>
-            <a href="project_home.html" id="project1-view">View Project</a>
-        </div>
-        
-        <div class="project">
-            <a href="#" id="project2-icon"><img src="#"></a>
-            <h3>Project 2</h3>
-            <p>A short description of the project taken from the github page</p>
-            <h6>Last updated 8 min ago</h6>
-            <a href="project_home.html" id="project2-view">View Project</a>
-        </div>
-        
-        <div class="project">
-            <a href="#" id="project3-icon"><img src="#"></a>
-            <h3>Project 3</h3>
-            <p>A short description of the project taken from the github page</p>
-            <h6>Last updated 8 min ago</h6>
-            <a href="project_home.html" id="project3-view">View Project</a>
-        </div>
-        
-        <div class="project">
-            <a href="#" id="project4-icon"><img src="#"></a>
-            <h3>Project 4</h3>
-            <p>A short description of the project taken from the github page</p>
-            <h6>Last updated 8 min ago</h6>
-            <a href="project_home.html" id="project4-view">View Project</a>
-        </div>
-        
-        <div class="project">
-            <a href="#" id="project5-icon"><img src="#"></a>
-            <h3>Project 5</h3>
-            <p>A short description of the project taken from the github page</p>
-            <h6>Last updated 8 min ago</h6>
-            <a href="project_home.html" id="project5-view">View Project</a>
-        </div>
-        
-        <div class="project">
-            <a href="#" id="project6-icon"><img src="#"></a>
-            <h3>Project 6</h3>
-            <p>A short description of the project taken from the github page</p>
-            <h6>Last updated 8 min ago</h6>
-            <a href="project_home.html" id="project6-view">View Project</a>
-        </div>
-        
-        <a href="#" id="projects-load">Load More Projects</a>
-    </div>
-<!----------------------------End of Projects---------------------------->
     
         
 

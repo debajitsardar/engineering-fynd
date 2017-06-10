@@ -1,14 +1,13 @@
 ---
 layout: post
-title:  "Project 3"
-date:   2015-01-30 12:00:00
+title:  "kOA SIMPLE PROXY"
+date:   2015-02-20 12:00:00
 categories: project
-description: A rich set of visualizations to analyze your data, as well as a flexible way to extend the capabilities.
+description: Koa2 Simple Proxy.
+img: pic03.png
 
 ---
 
-<p><img src="{{ site.baseurl }}/images/pic02.jpg" class="fit image">
-</p>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi cursus fringilla dui. Donec laoreet maximus elit. Mauris ullamcorper condimentum lobortis. Donec maximus, mi vitae iaculis placerat, ligula mi maximus lectus, ac varius mi nulla id neque. Quisque porta eros nisi, eu fringilla urna dictum vitae. Vestibulum id metus eu nisl sodales consectetur. Phasellus et ultrices lacus.</p>
 

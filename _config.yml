@@ -14,3 +14,5 @@ github_username:  jekyll
 markdown: kramdown
 gems:
   - jekyll-feed
+
+permalink: /:categories/:title.html
