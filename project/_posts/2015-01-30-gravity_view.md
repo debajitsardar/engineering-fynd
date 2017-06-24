@@ -19,13 +19,13 @@ Mobile shopping just got so much fun! :)
 Our vision was to empower users to navigate quickly through all product images without having to swipe through all of them. It was necessary to ensure seamless transition between images to avoid nausea and irritation.
 </p>
 <p>
-We took inspiration from Facebook (https://medium.com/@facebookdesign)’s  (https://instantarticles.fb.com/)Instant Articles (https://instantarticles.fb.com/) and implemented smooth tilt on a single image. We showed this around to folks at Fynd (https://medium.com/@gofynd) and they loved it. This got us excited about extending this feature to all images, and all at once. Now this was one challenging task!
+We took inspiration from <a href="https://medium.com/@facebookdesign">Facebook's</a> <a href="https://instantarticles.fb.com/">Instant Articles</a> and implemented smooth tilt on a single image. We showed this around to folks at Fynd (https://medium.com/@gofynd) and they loved it. This got us excited about extending this feature to all images, and all at once. Now this was one challenging task!
 When we started building a proof of concept we realised that the implementation wasn’t as smooth as we wanted it to be because we had enabled pagination to load each image in a separate canvas earlier. The only solution to this problem was to load all images in a single canvas and that meant re-writing a lot of code. Now, achieving the right tilt angle along with acceleration was key. As usual, this lead to more challenges :)
 </p>
 
 
 <p>
-You can view the code on Github (https://github.com/gofynd/gravity-view). We’d love to hear your feedback.
+You can view the code on <a href="https://github.com/gofynd/gravity-view">Github</a>. We’d love to hear your feedback.
 </p>
 
 <h3>
@@ -33,9 +33,9 @@ You can view the code on Github (https://github.com/gofynd/gravity-view). We’d
 </h3>
 
 
-<p>
+<h4>
 Meet the team behind Gravity View:
-</p>
+</h4>
 <p>
 Rahul Chaudhari, Fahim Sakri, Ankur Chandra, Amboj Goyal, Debajit Sardar
 </p>
