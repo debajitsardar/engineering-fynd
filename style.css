@@ -42,14 +42,9 @@ h2 {
     font-weight: 300;
     line-height: 0px;
     color: white;
+    text-align: center;
 }
 
-.subtitle{
-    font-size: 21px;
-    font-weight: 300;
-    text-align: center;
-    line-height: 33px;
-}
 #about {
     font-size: 20px;
     font-weight: 300;
