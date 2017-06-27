@@ -19,6 +19,13 @@ layout: default
     </div>
 <div class="blogcard">
     {% for post in site.categories.blog %}
+
+    {% capture url_to_use %}{{ post.url" }}{% endcapture %}
+    {% if post.redirect_url %}
+      {% capture url_to_use %}{{ post.redirect_url" }}{% endcapture %}
+    {% endif %}
+
+
         <div class="b_wrapper">
             
             <section class="b_container">
