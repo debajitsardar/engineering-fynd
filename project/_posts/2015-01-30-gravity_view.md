@@ -4,7 +4,7 @@ title:  "GRAVITY VIEW"
 date:   2015-01-30 12:00:00
 categories: project
 description: Introducing Gravity View - Because swiping is so yesterday!
-img: pic02.png
+img: gravityview_logo.png
 
 ---
 <p>

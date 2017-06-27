@@ -4,7 +4,7 @@ title:  "kOA SIMPLE PROXY"
 date:   2015-02-20 12:00:00
 categories: project
 description: Koa2 Simple Proxy.
-img: pic03.png
+img: koa-simple-proxy_logo.png
 
 ---
 
