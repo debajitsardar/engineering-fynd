@@ -5,6 +5,7 @@ date:   2015-02-20 12:00:00
 categories: project
 description: Koa2 Simple Proxy.
 img: koa-simple-proxy_logo.png
+github_url: "https://github.com/gofynd/koa-simple-proxy"
 
 ---
 

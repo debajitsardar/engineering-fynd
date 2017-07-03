@@ -5,6 +5,7 @@ date:   2015-01-30 12:00:00
 categories: project
 description: Introducing Gravity View - Because swiping is so yesterday!
 img: gravityview_logo.png
+github_url:"https://github.com/gofynd/gravity-view"
 
 ---
 <p>
