@@ -18,9 +18,9 @@ Open API leverages Fynd's real-time inventory integration with over 200+ brands 
 </p>
 
 
-<p>
+<h3>
 You can use the Open APIs to:
-</p>
+</h3>
 <p>
   * Showcase products from our partner brands
 </p>
