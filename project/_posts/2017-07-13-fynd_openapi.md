@@ -3,7 +3,7 @@ layout: post
 title:  "FYND OPEN API"
 date:   2017-07-13 12:00:00
 categories: project
-description: Build complete Omni-channel Fashion Retail with our HTTP/JSON APIs
+description: Build complete Omni-channel Retail with our HTTP/JSON APIs
 img: gravityview_logo.png
 github_url: "https://github.com/gofynd/gravity-view"
 
