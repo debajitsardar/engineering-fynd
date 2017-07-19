@@ -467,6 +467,11 @@ a{
     
 }
 
+.fork_count{
+    height: 100%;
+    display: block;
+}
+
 .post-body {
     padding: 20px 0px;
     position: relative;
