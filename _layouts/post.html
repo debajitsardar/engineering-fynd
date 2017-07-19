@@ -32,7 +32,6 @@ function showHint(projectname) {
             if (this.readyState == 4 && this.status == 200) {
                 var json_resp = JSON.parse(this.responseText)
                 document.getElementById("fork_count").innerHTML = json_resp.forks_count;
-                console.log(this.responseText)
             }
         };
         xmlhttp.open("GET", "https://api.github.com/repos/gofynd/" + projectname, true);
