@@ -20,12 +20,31 @@
     </section>
 <!----------------------------End of Banner---------------------------->
         
+<script>
+function showHint(str) {
+    if (str.length == 0) {
+        document.getElementById("fork_count").innerHTML = "";
+        return;
+    } else {
+        var xmlhttp = new XMLHttpRequest();
+        xmlhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                document.getElementById("fork_count").innerHTML = this.responseText;
+                console.log(this.responseText)
+            }
+        };
+        xmlhttp.open("GET", "https://api.github.com/repos/gofynd/fyx", true);
+        xmlhttp.send();
+    }
+}
+showHint("0")
 
+</script>
   
     
     <div class="post-content">
 
-            <div class="fork_count">0
+            <div id="fork_count">0
 
             </div>
 
