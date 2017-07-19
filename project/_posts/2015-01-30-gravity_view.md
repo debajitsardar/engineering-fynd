@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "GRAVITY VIEW"
+name: gravity-view
 date:   2015-01-30 12:00:00
 categories: project
 description: Introducing Gravity View - Because swiping is so yesterday!

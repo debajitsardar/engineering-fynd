@@ -16,12 +16,13 @@
             <img class="fit image" src="http://fynd-static.s3.amazonaws.com/engineering-fynd/{{page.img}}">
             <h1 class="p_title">{{ page.title }}</h1>
             <h2 class="subtitle">{{ page.description }}</h2>
+            <input id="projectname" type="hidden" value="{{ page.name }}"/>
         </div>
     </section>
 <!----------------------------End of Banner---------------------------->
         
 <script>
-function showHint(str) {
+function showHint(projectname) {
     if (str.length == 0) {
         document.getElementById("fork_count").innerHTML = "";
         return;
@@ -34,11 +35,11 @@ function showHint(str) {
                 console.log(this.responseText)
             }
         };
-        xmlhttp.open("GET", "https://api.github.com/repos/gofynd/fyx", true);
+        xmlhttp.open("GET", "https://api.github.com/repos/gofynd/" + projectname, true);
         xmlhttp.send();
     }
 }
-showHint("0")
+showHint(document.getElementById("projectname").value)
 
 </script>
   
