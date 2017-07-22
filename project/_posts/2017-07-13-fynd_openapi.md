@@ -1,11 +1,11 @@
 ---
-layout: post
+layout: externalpost2
 title:  "FYND OPEN API"
 date:   2017-07-13 12:00:00
 categories: project
 description: Build complete Omni-channel Retail with our HTTP/JSON APIs
 img: fynd_openapi_logo.png
-github_url: "https://github.com/gofynd/gravity-view"
+redirect_url: "http://api.gofynd.com/docs/index.html"
 
 ---
 
