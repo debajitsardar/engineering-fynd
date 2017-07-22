@@ -23,7 +23,7 @@ request({
   console.log('body:', body); // Print the HTML for the Google homepage.
 
     body.forEach((o, i) => {
-        let durl = `https://raw.githubusercontent.com/gofynd/${o.name}/master/README.md`;  
+        let durl = `https://raw.githubusercontent.com/gofynd/${o.name}/master/project.md`;
         let dpath = path.join(__dirname, destDir, o.name + ".md");
         download(durl).pipe(fs.createWriteStream(dpath));
         console.log("Done", o.name, dpath);
