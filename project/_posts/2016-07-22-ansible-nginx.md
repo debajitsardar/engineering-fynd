@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "ansible-nginx"
+title: ANSIBLE NGINX
+name: "ansible-nginx"
 date: 2017-07-06 12:00:00
 categories: project
 description: Ansible role to setup and configure Nginx web server
