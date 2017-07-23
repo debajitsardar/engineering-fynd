@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "kOA SIMPLE PROXY"
+title:  "KOA SIMPLE PROXY"
+name: koa-simple-proxy
 date:   2015-02-20 12:00:00
 categories: project
 description: Koa2 Simple Proxy.
