@@ -17,7 +17,7 @@ layout: landing-page
 
 
 <div class="projectcard">
-    {% for post in site.categories.project %}
+    {% for post in site.categories.project limit:6 %}
         <div class="p_wrapper">
             <div class="major">
                 <img class="fit image" src="http://fynd-static.s3.amazonaws.com/engineering-fynd/{{post.img}}">
@@ -51,7 +51,7 @@ layout: landing-page
     </div>
                 
     <div class="blogcard">
-    {% for post in site.categories.blog %}
+    {% for post in site.categories.blog limit:6 %}
 
         {% capture url_to_use %}{{ post.url" }}{% endcapture %}
     {% if post.redirect_url %}
