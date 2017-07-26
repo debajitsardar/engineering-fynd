@@ -272,6 +272,11 @@ ul {
     flex: 1;
     justify-content: flex-start;
     align-items: center;
+    border-bottom: 1px solid #F4F4F4
+}
+.git_data {
+    width: 25%;
+
 }
 
 .p_wrapper {
