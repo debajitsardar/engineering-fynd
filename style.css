@@ -288,6 +288,8 @@ h5 {
     font-size: 14px;
     font-weight: 400;
     color: #6B6484;
+    height: 0px;
+    line-height: 25px;
 }
 
 h6 {
