@@ -278,7 +278,7 @@ ul {
     height: 60px;
     align-items: center;
     background-color: white;
-    border: 0px 0px 1px 0px;
+    border-bottom: 1px;
     border-color: #F4F4F4;
     border-style: solid;
 }
