@@ -30,12 +30,6 @@ When we started building a proof of concept we realised that the implementation 
 You can view the code on <a href="https://github.com/gofynd/gravity-view">Github</a>. We’d love to hear your feedback.
 </p>
 
-<h3>
-Meet the team behind Gravity View:
-</h3>
-<p>
-Rahul Chaudhari, Fahim Sakri, Ankur Chandra, Amboj Goyal, Debajit Sardar
-</p>
 
 
 
