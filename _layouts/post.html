@@ -32,6 +32,9 @@ function showHint(projectname) {
             if (this.readyState == 4 && this.status == 200) {
                 var json_resp = JSON.parse(this.responseText)
                 document.getElementById("fork_count").innerHTML = json_resp.forks_count;
+                document.getElementById("star_count").innerHTML = json_resp.stargazers_count;
+                document.getElementById("watcher_count").innerHTML = json_resp.subscribers_count;
+                document.getElementById("created_on").innerHTML = json_resp.created_at;
             }
         };
         xmlhttp.open("GET", "https://api.github.com/repos/gofynd/" + projectname, true);
@@ -46,8 +49,20 @@ showHint(document.getElementById("projectname").value)
     <div class="post-content">
         <div class="nav">
             <div>
-                <div class="git_value" id="fork_count">0</div>
                 <div class="git_field">Forks</div>
+                <div class="git_value" id="fork_count">0</div>
+            </div>
+            <div>
+                <div class="git_field">Stars</div>
+                <div class="git_value" id="star_count">0</div>
+            </div>
+            <div>
+                <div class="git_field">Watchers</div>
+                <div class="git_value" id="watcher_count">0</div>
+            </div>
+            <div>
+                <div class="git_field">Created on</div>
+                <div class="git_value" id="created_on">0</div>
             </div>
 
         </div>
