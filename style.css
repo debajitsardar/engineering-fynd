@@ -429,6 +429,11 @@ t_special{
     background-color: #9878C0;
 }
 
+.view_team:hover {
+    background-color: #8162AA;
+}
+
+
 .view_all_link {
     text-decoration: none;
     font-weight: 700;
