@@ -388,12 +388,16 @@ t_special{
     font-size: 14px;
 }
 
+.view:hover {
+    color: #9A5ED0;
+}
+
 .view_all {
     display: block;
     text-align: center;
     padding: 40px 0px;
-    
 }
+
 
 .roles {
     display: block;
