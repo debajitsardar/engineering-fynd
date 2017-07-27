@@ -32,7 +32,11 @@ Why use Fynd Open API?
 <p>
 Building a large scale omni-channel e-commerce platform is a time consuming challenge.
 Having gone through this ourselves, and over two years worth of effort and experience have led us to open up our framework to let you build an omni-channel experience without having to worry about inventory integrations, logistics & operational details.
+</p>
+<h3>
 How do I get access?
+</h3>
+<p>
 Fynd Open API is currently in private beta. We are on-boarding select partners based on the unique use cases they are unlocking for customers.
 </p>
 
