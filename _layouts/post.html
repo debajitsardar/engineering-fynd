@@ -39,9 +39,11 @@ function showHint(projectname) {
                 var sampledate = '2017-03-06T08:41:26Z'
                 function getStructuredDate(TformatedDate){
                 var d = new Date(TformatedDate);
-                return [d.getDate(), d.getMonth()+1, d.getFullYear()].join('-')}
-                document.getElementById("created_on").innerHTML = getStructuredDate(json_resp.created_at);
+                var monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 
+                return [d.getDate(), monthNames[d.getMonth()], d.getFullYear()].join('-')
+                }
+                document.getElementById("created_on").innerHTML = getStructuredDate(json_resp.created_at);
 
 
             }
