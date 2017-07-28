@@ -7,7 +7,7 @@
 
         {% include /header.html %}
 
-        
+
     <section id="banner">
         <div class="p_banner">
             <img class="fit image" src="http://fynd-static.s3.amazonaws.com/engineering-fynd/{{page.img}}">
@@ -22,7 +22,7 @@
                 {{ content }}
             <h3>TEAM MEMBERS</h3>
         <div class="team-members">
-        {% for post in site.tag.vision %}
+        {% for post in site.categories.growth %}
         <div class="m_wrapper">
             <div class="profile_pic">
                 <img class="fit image" src="http://fynd-static.s3.amazonaws.com/engineering-fynd/{{post.img}}">
