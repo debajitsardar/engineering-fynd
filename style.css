@@ -62,10 +62,10 @@ h2 {
 }
 
 #about {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 300;
     text-align: center; 
-    line-height: 28px;
+    line-height: 22px;
 }
 
 h3 {
@@ -448,7 +448,7 @@ t_special{
 }
 
 .team {
-    height: 460px;
+    height: 520px;
     background-color: #A88ACE;
     color: white;
     text-align: center;
