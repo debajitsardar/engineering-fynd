@@ -34,7 +34,16 @@ function showHint(projectname) {
                 document.getElementById("fork_count").innerHTML = json_resp.forks_count;
                 document.getElementById("star_count").innerHTML = json_resp.stargazers_count;
                 document.getElementById("watcher_count").innerHTML = json_resp.subscribers_count;
-                document.getElementById("created_on").innerHTML = json_resp.created_at;
+
+
+                var sampledate = '2017-03-06T08:41:26Z'
+                function getStructuredDate(TformatedDate){
+                var d = new Date(TformatedDate);
+                return [d.getDate(), d.getMonth()+1, d.getFullYear()].join('-')}
+                document.getElementById("created_on").innerHTML = getStructuredDate(json_resp.created_at);
+
+
+
             }
         };
         xmlhttp.open("GET", "https://api.github.com/repos/gofynd/" + projectname, true);
@@ -42,6 +51,9 @@ function showHint(projectname) {
     }
 }
 showHint(document.getElementById("projectname").value)
+
+
+
 
 </script>
   
