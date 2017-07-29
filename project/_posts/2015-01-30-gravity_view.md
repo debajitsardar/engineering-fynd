@@ -14,21 +14,16 @@ Consumers don’t expect shopping to extend beyond the visual cues in a layered 
 </p>
 
 <p>
-Mobile shopping just got so much fun! :)
+Mobile shopping just got so much fun! :) 
 </p>
  
 <p>
-Our vision was to empower users to navigate quickly through all product images without having to swipe through all of them. It was necessary to ensure seamless transition between images to avoid nausea and irritation.
+Our vision at fynd was to empower users to navigate quickly through all product images without having to swipe through all of them. It was necessary to ensure seamless transition between images to avoid nausea and irritation.
 </p>
 <p>
-We took inspiration from Facebook's <a href="https://instantarticles.fb.com/">Instant Articles</a> and implemented smooth tilt on a single image. We showed this around to folks at Fynd and they loved it. This got us excited about extending this feature to all images, and all at once. Now this was one challenging task!
-When we started building a proof of concept we realised that the implementation wasn’t as smooth as we wanted it to be because we had enabled pagination to load each image in a separate canvas earlier. The only solution to this problem was to load all images in a single canvas and that meant re-writing a lot of code. Now, achieving the right tilt angle along with acceleration was key. As usual, this lead to more challenges :)
+Android Team took inspiration from Facebook's Instant Articles. The concept behind the library is to utilize the motion sensors of an Android device and allow the end user to explore the product by rotating his device. It uses gyroscope motion sensor readings to scroll the image. Initially, team explored few libraries to achieve a smooth tilt experience and played around with the g vector values and tilt measurements but none of them gave us the results as needed. Since an accelerometer alone wasn't sufficient to avoid issues like gimbal lock and Sensor Fusion technique was the approach to provide accurate information by using rotation vector sensor, accelerometer, geomagnetic sensor, and gyroscope. After doing math calculation to solve this problem considering the number of images, range of tilting angle, pan speed for the canvas, and a few other variables to form an equation. Finally, figured the way to give a smooth scroll to the image on device tilt :)
 </p>
 
-
-<p>
-You can view the code on <a href="https://github.com/gofynd/gravity-view">Github</a>. We’d love to hear your feedback.
-</p>
 
 
 
