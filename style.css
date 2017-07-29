@@ -192,7 +192,7 @@ p {
 
 ul {
     display: block;
-    padding: 10px 0 10px 0;
+    line-height: 30px;
     color: #41434c;
     list-style-type: circle;
 }
