@@ -6,7 +6,7 @@ categories: project
 description: Build complete omni-channel retail apps with our HTTP/JSON APIs
 img: fynd_openapi_logo.png
 redirect_url: "http://api.gofynd.com/docs/index.html"
-
+redirect_url2: "https://gitter.im/gofynd/open-api"
 ---
 
 <h3>
