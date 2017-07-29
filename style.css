@@ -195,6 +195,7 @@ ul {
     line-height: 30px;
     color: #41434c;
     list-style-type: circle;
+    font-weight: 300;
 }
 
 #gofynd-redirect {
