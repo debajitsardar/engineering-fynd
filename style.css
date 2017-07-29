@@ -190,18 +190,17 @@ p {
 
 li{
     display:block;
-    font-size: 14px;
-    color: #6B6484;
+    font-size: 16px;
     margin-top: 11px;
+    list-style-type: circle;
 }
 
 
 ul {
-    text-align: center;
     display: block;
-    margin: auto;
-    padding: 21px 0 21px 0;
+    padding: 10px 0 10px 0;
     color: #41434c;
+    list-style-type: circle;
 }
 
 #gofynd-redirect {
