@@ -5,7 +5,7 @@ name: pre-vision
 date:   2015-01-30 12:00:00
 categories: project
 description: Build e-commerce apps faster with visual recognition technology 
-img: witivision_logo.png
+img: pre-vision_logo.png
 redirect_url: "http://vision-open-api.gofynd.com"
 
 
