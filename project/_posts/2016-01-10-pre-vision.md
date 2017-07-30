@@ -4,7 +4,7 @@ title:  "PRE VISION"
 name: pre-vision
 date:   2015-01-30 12:00:00
 categories: project
-description: Build e-commerce apps faster with Fynd Pre Vision visual recognition technology 
+description: Build e-commerce apps faster with visual recognition technology 
 img: witivision_logo.png
 github_url: "http://vision-open-api.gofynd.com"
 
