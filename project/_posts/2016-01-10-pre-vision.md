@@ -46,7 +46,7 @@ curl -X POST
 
     -d '
     {
-    "image_url": "https://goo.gl/iYqVhj",
+    "image_url": "https://goo.gl/RD8BoC",
 
         "model_name": "sleeve_length_men"
 
