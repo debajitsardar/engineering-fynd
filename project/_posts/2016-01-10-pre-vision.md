@@ -39,22 +39,20 @@ curl -X GET http://vision-open-api.gofynd.com/api/open/v1/models-meta/
 <p>sample cURL request to classify image
 </p>
 
-<code>
+<pre>
 curl -X POST
 
-    -H "Content-Type: application/json"
+-H "Content-Type: application/json"
 
-    -d '
+-d '
+{
+"image_url": "https://d2zv4gzhlr4ud6.cloudfront.net/media/pictures/tagged_items/540x0/235_M10LX120DSGAG/1.jpg",
 
-    {
+    "model_name": "sleeve_length_men"
 
-      "image_url": "https://d2zv4gzhlr4ud6.cloudfront.net/media/pictures/tagged_items/540x0/235_M10LX120DSGAG/1.jpg",
+}'
 
-      "model_name": "sleeve_length_men"
+http://vision-open-api.gofynd.com/api/open/v1/prediction/
 
-    }'
-
-    http://vision-open-api.gofynd.com/api/open/v1/prediction/
-
-</code>
+</pre>
 
