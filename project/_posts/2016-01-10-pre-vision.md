@@ -48,8 +48,7 @@ curl -X POST
 
     {
 
-      "image_url": "https://d2zv4gzhlr4ud6.cloudfront.net/media/
-      pictures/tagged_items/540x0/235_M10LX120DSGAG/1.jpg",
+      "image_url": "https://d2zv4gzhlr4ud6.cloudfront.net/media/pictures/tagged_items/540x0/235_M10LX120DSGAG/1.jpg",
 
       "model_name": "sleeve_length_men"
 
