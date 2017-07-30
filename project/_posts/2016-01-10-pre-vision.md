@@ -42,17 +42,17 @@ curl -X GET http://vision-open-api.gofynd.com/api/open/v1/models-meta/
 <pre>
 curl -X POST
 
--H "Content-Type: application/json"
+    -H "Content-Type: application/json"
 
--d '
-{
-"image_url": "https://goo.gl/iYqVhj",
+    -d '
+    {
+    "image_url": "https://goo.gl/iYqVhj",
 
-    "model_name": "sleeve_length_men"
+        "model_name": "sleeve_length_men"
 
-}'
+    }'
 
-http://vision-open-api.gofynd.com/api/open/v1/prediction/
+    http://vision-open-api.gofynd.com/api/open/v1/prediction/
 
 </pre>
 
