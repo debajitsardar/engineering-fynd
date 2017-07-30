@@ -406,25 +406,25 @@ t_special{
     text-align: center;
     padding: 24px;
 }
-.view_rest {
+.view_roles {
     background-color: #00abaa;
     border: none;
     padding: 10px 30px;
     border-radius: 4px;
 }
 
-.view_rest:hover {
+.view_roles:hover {
     background-color: #04919a;
 }
 
-.view_roles {
+.view_rest {
     background-color: #A88ACE;
     border: none;
     padding: 10px 30px;
     border-radius: 4px;
 }
 
-.view_roles:hover {
+.view_rest:hover {
     background-color: #9778BF;
 }
 
