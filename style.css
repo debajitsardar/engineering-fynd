@@ -407,17 +407,24 @@ t_special{
     padding: 24px;
 }
 .view_rest {
-    background-color: #A88ACE;
+    background-color: #00abaa;
     border: none;
     padding: 10px 30px;
     border-radius: 4px;
 }
 
 .view_rest:hover {
-    background-color: #9778BF;
+    background-color: #04919a;
 }
 
-.view_rest:hover {
+.view_roles {
+    background-color: #A88ACE;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 4px;
+}
+
+.view_roles:hover {
     background-color: #9778BF;
 }
 
@@ -425,11 +432,11 @@ t_special{
     border: none;
     padding: 10px 30px;
     border-radius: 4px;
-    background-color: #9878C0;
+    background-color: #df5e9a;
 }
 
 .view_team:hover {
-    background-color: #8164A7;
+    background-color: #d51c86;
 }
 
 
