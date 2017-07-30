@@ -39,7 +39,7 @@ curl -X GET http://vision-open-api.gofynd.com/api/open/v1/models-meta/
 <p>sample cURL request to classify image
 </p>
 
-<pre>
+<code>
 curl -X POST
 
     -H "Content-Type: application/json"
@@ -56,5 +56,5 @@ curl -X POST
 
     http://vision-open-api.gofynd.com/api/open/v1/prediction/
 
-</pre>
+</code>
 
