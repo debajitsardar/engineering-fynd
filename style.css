@@ -204,6 +204,7 @@ ul {
 }
 
 #gofynd-redirect {
+    display: inline;
     width: 120px;
     height: 34px;
     font-size: 14px;
