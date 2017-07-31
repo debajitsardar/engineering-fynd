@@ -41,7 +41,6 @@ h2 {
     font-weight: 300;
     line-height: 0px;
     color: white;
-    text-align: center;
 }
 
 .subtitle {
@@ -237,7 +236,6 @@ ul {
 .inner {
     padding-top: 60px;
     padding-left: 70px;
-    text-align: center;
 }
 
 
@@ -365,8 +363,8 @@ h6 {
     height: 190px;
 }
 .team_container {
-    height: 260px;
-    padding: 44px 185px;
+    padding-top: 60px;
+    padding-left: 70px;
 }
 
 
