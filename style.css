@@ -148,9 +148,8 @@ p {
 #fynd-logo {
     width: 130px;
     height: 34px;
-    background: url(img/fynd_logo.png) no-repeat center;
-    margin-right: 8px;
-    margin-top: 13px;
+    background: url(img/fynd_logo.svg) no-repeat center;
+    margin-right: 15px;
 }
 
 
