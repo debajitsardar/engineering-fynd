@@ -146,7 +146,7 @@ p {
 }
 
 #fynd-logo {
-    width: 34px;
+    width: 130px;
     height: 34px;
     background: url(img/fynd_logo.png) no-repeat center;
     margin-right: 8px;
@@ -205,7 +205,7 @@ ul {
 
 #gofynd-redirect {
     display: inline;
-    width: 120px;
+    width: 130px;
     height: 34px;
     font-size: 14px;
     font-weight: 300;
