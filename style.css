@@ -126,7 +126,7 @@ p {
     display: flex;
     width: 100%;
     height: 60px;
-    border: 1px solid #F4F4F4
+    border: 1px solid #ECECEC
 }
 
 
@@ -273,7 +273,7 @@ ul {
     line-height: 34px;
     flex: 1;
     justify-content: flex-start;
-    border-bottom: 1px solid #F4F4F4
+    border-bottom: 1px solid #ECECEC
 }
 .git_data {
     width: 25%;
@@ -283,7 +283,7 @@ ul {
 .p_wrapper {
     width: 33%;
     background-color: white;
-    border: 1px solid #F4F4F4;
+    border: 1px solid #ECECEC;
 }
 
 .m_wrapper {
@@ -336,7 +336,7 @@ h6 {
 .t_wrapper{
     width: 49%;
     background-color: white;
-    border: 1px solid #F4F4F4;
+    border: 1px solid #ECECEC;
 }
 
 
@@ -344,7 +344,7 @@ h6 {
 .b_wrapper {
     width: 49%;
     background-color: white;
-    border: 1px solid #F4F4F4;
+    border: 1px solid #ECECEC;
 }
 
 .major {
@@ -462,7 +462,7 @@ t_special{
 
 .jobs {
     background-color: white;
-    border: 1px solid #F4F4F4;
+    border: 1px solid #ECECEC;
     align-items: center;
 }
 
@@ -483,7 +483,7 @@ t_special{
     display: block;
     font-size: 12px;
     padding: 20px 0px;
-    border: 1px solid #F4F4F4;
+    border: 1px solid #ECECEC;
 }
 
 .links1  {
@@ -536,7 +536,7 @@ a{
 
 .post-content {
     background-color: white;
-    border: 1px solid #F4F4F4;
+    border: 1px solid #ECECEC;
     
 }
 
@@ -557,7 +557,7 @@ a{
     background-color: white;
     border-width: 1px 0px 0px 0px;
     border-style: solid;
-    border-color: #F4F4F4;
+    border-color: #ECECEC;
     display: flex;
     align-items: center;
     width: 60%;
@@ -569,7 +569,7 @@ a{
     background-color: white;
     border-width: 0px 0px 1px 0px;
     border-style: solid;
-    border-color: #F4F4F4;
+    border-color: #ECECEC;
     display: flex;
     align-items: center;
     width: 60%;
