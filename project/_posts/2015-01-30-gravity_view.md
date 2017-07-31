@@ -21,8 +21,12 @@ Mobile shopping just got so much fun! :)
 Our vision at fynd was to empower users to navigate quickly through all product images without having to swipe through all of them. It was necessary to ensure seamless transition between images to avoid nausea and irritation.
 </p>
 <p>
-Android Team took inspiration from Facebook's Instant Articles. The concept behind the library is to utilize the motion sensors of an Android device and allow the end user to explore the product by rotating his device. It uses gyroscope motion sensor readings to scroll the image. Initially, team explored few libraries to achieve a smooth tilt experience and played around with the g vector values and tilt measurements but none of them gave us the results as needed. Since an accelerometer alone wasn't sufficient to avoid issues like gimbal lock and Sensor Fusion technique was the approach to provide accurate information by using rotation vector sensor, accelerometer, geomagnetic sensor, and gyroscope. After doing math calculation to solve this problem considering the number of images, range of tilting angle, pan speed for the canvas, and a few other variables to form an equation. Finally, figured the way to give a smooth scroll to the image on device tilt :)
+Android Team took inspiration from Facebook's Instant Articles. The concept behind the library is to utilize the motion sensors of an Android device and allow the end user to explore the product by rotating his device. It uses gyroscope motion sensor readings to scroll the image.</p>
+
+<p>Initially, team explored few libraries to achieve a smooth tilt experience and played around with the g vector values and tilt measurements but none of them gave us the results as needed. Since an accelerometer alone wasn't sufficient to avoid issues like gimbal lock and Sensor Fusion technique was the approach to provide accurate information by using rotation vector sensor, accelerometer, geomagnetic sensor, and gyroscope. After doing math calculation to solve this problem considering the number of images, range of tilting angle, pan speed for the canvas, and a few other variables to form an equation. Finally, figured the way to give a smooth scroll to the image on device tilt :)
+
 </p>
+
 
 
 
