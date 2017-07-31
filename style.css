@@ -26,7 +26,6 @@ body {
 h1 {
     font-size: 48px;
     font-weight: 700;
-    text-align: center;
     line-height: 35px;
 }
 
@@ -222,7 +221,6 @@ ul {
 #banner{
         background-color: #a88ace;
 		color: white;
-		text-align: center;
         height: 300px;
         display: block;
         background: url(img/landing_banner.png) no-repeat center;
@@ -237,7 +235,8 @@ ul {
 }
 
 .inner {
-    padding-top: 50px;
+    padding-top: 60px;
+    padding-left: 70px;
     text-align: center;
 }
 
