@@ -224,14 +224,16 @@ ul {
 		color: white;
 		text-align: center;
         height: 300px;
-        display: block;   
+        display: block;
+        background: url(img/opensource_logo.svg) no-repeat center;
 }
 
 .p_banner{
         background-color: #a88ace;
 		color: white;
 		text-align: center;
-        height: 300px;   
+        height: 300px;
+        padding-top: 30px;
 }
 
 .inner {
@@ -239,9 +241,6 @@ ul {
     text-align: center;
 }
 
-.p_banner {
-    padding-top: 30px;
-}
 
 .content-title {
     font-size: 24px;
