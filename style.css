@@ -413,6 +413,11 @@ t_special{
     border: none;
     padding: 10px 30px;
     border-radius: 4px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+    font-family: 'Montserrat';
 }
 
 .view_roles:hover {
@@ -441,6 +446,11 @@ t_special{
     padding: 10px 30px;
     border-radius: 4px;
     background-color: #df5e9a;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+    font-family: 'Montserrat';
 }
 
 .view_team:hover {
