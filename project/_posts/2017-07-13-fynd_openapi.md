@@ -53,6 +53,5 @@ What about revenue sharing?
 You get a revenue share for all the orders executed via your platform.
 </p>
 
-form:
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc6NROI30EtBkmLmuU2RHYhOojDceO2mMzuE_FUqjoC0VY9rg/viewform?embedded=true" width="600" height="1145" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
