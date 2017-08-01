@@ -424,7 +424,13 @@ t_special{
     border: none;
     padding: 10px 30px;
     border-radius: 4px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+    font-family: 'Montserrat';
 }
+
 
 .view_rest:hover {
     background-color: #9778BF;
