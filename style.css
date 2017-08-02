@@ -418,6 +418,7 @@ t_special{
     color: white;
     font-family: 'Montserrat';
     outline: none;
+    cursor: pointer;
 }
 
 .view_roles:hover {
