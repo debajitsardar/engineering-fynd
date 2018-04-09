@@ -4,7 +4,7 @@ title:  "ALB LOG PARSER"
 date:   2018-02-17 12:00:00
 categories: project
 description: Parse ALB logs and load in Athena using Serverless Framework
-img: alb-log-parser_logo.png
+img: alb-log-parser1_logo.png
 github_url: "https://github.com/gofynd/alb-logs-parser"
 
 
