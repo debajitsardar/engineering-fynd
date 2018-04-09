@@ -3,7 +3,7 @@ layout: post
 title:  "CELERY AUTOSCALE"
 date:   2018-02-18 12:00:00
 categories: project
-description: Push celery queue metrics on AWS cloudwatch that would help in monitoring and autoscaling
+description: Push celery queue metrics on AWS cloudwatch for monitoring and autoscaling
 img: celery-autoscale_logo.png
 github_url: "https://github.com/gofynd/celery-autoscale"
 
