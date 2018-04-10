@@ -3,7 +3,7 @@ layout: post
 title:  "FLASK APP SKELETON"
 date:   2018-02-25 12:00:00
 categories: project
-description: Boilerplate framework on top of flask for developing large api backend applications
+description: Boilerplate Flask framework developing large api backend applications
 img: flask-full_logo.png
 github_url: "https://github.com/gofynd/flask-full"
 
