@@ -20,7 +20,7 @@ Alb Log Parser is a tool built on serverless framework which parses the ALB logs
 This tool deploys 3 lamda functions.</p>
 
 <h3>
-copy_alb_logs
+Copy ALB Logs
 </h3>
 
 
@@ -29,12 +29,12 @@ This function triggeres on the put event of S3 bucket where ALb logs are dumped.
 </p>
 
 <h3>
-repair_disk_athena
+Repair Disk Athena
 </h3>
 <p>This function triggeres once in a day at 12:06 am. Athena creates a new partition for every year then every month and day. Eg if date is 17/02/2018, log file path will be 2018/02/17/{filename}. So every day new partition is created. This function is responsible for loading that new partition by executing a query in athena.</p>
 
 <h3>
-fetch_data_from_athena
+Fetch Data From Athena
 </h3>
 <p>This function triggeres after every 5 minutes as ALB push logs every 5 minutess. It executes query to fetch data(by default non 200 http status urls) and post them to logz io.</p>
 
