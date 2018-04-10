@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "EC2 SCHEDULER"
-date:   2018-02-18 12:00:00
+date:   2018-02-19 12:00:00
 categories: project
-description: Powered by AWS Lambda to automatically start and stop ec2 instances 
+description: Powered by AWS Lambda to automatically schedule ec2 instances 
 img: ec2_scheduler_logo.png
 github_url: "https://github.com/gofynd/ec2-scheduler"
 
